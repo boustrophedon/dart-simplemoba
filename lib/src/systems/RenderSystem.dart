@@ -23,8 +23,8 @@ class RenderSystem extends System {
 
     // order of renderers specified here specifies draw order. first in first out -> last thing added gets drawn on top
     renderers['attack'] = new AttackRenderer(canvas, context);
-    //renderers['defense'] = new DefenseRenderer(canvas, context);
-    //renderers['support'] = new SupportRenderer(canvas, context);
+    renderers['defense'] = new DefenseRenderer(canvas, context);
+    renderers['support'] = new SupportRenderer(canvas, context);
   }
 
   void process() {

@@ -5,10 +5,12 @@ class AttackRenderer extends Renderer {
 
   void render_entity(Entity e) {
     Position pos = e.get_component(Position);
+    Renderable rend = e.get_component(Renderable);
 
     context.fillStyle = '#FF0000';
     // draw square
-    context.rect(pos.x, pos.y, 20,20); 
-    context.fill();
+    context.fillRect(pos.x, pos.y, 20,20); 
+
+    print("Rendering ${rend.type}");
   }
 }

@@ -16,8 +16,8 @@ part 'src/systems/RenderSystem.dart';
 
 part 'src/renderers/Renderer.dart';
 part 'src/renderers/AttackRenderer.dart';
-//part 'src/renderers/DefenseRenderer.dart'
-//part 'src/renderers/SupportRenderer.dart'
+part 'src/renderers/DefenseRenderer.dart';
+part 'src/renderers/SupportRenderer.dart';
 
 ClientWorld create_client_world() {
   ClientWorld world = new ClientWorld();
