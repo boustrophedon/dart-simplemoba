@@ -1,0 +1,11 @@
+name: simplemoba
+version: "0.0.1"
+description: simple moba in dart with canvas
+author: Harry Stern <harry.stern@rutgers.edu>
+homepage: https://github.com/boustrophedon/dart-simplemoba
+environment:
+  sdk: ">=1.2.0"
+dependencies:
+  browser: any
+  entity_component:
+    git: git://github.com/boustrophedon/entity-component-dart.git

@@ -1,0 +1,8 @@
+This is going to be a simple moba. You can play as "attack", "defense", or "support." 
+
+- Attack is the triangle and shoots short-range missiles that do damage. They have medium health.
+- Defense is the circle and can destroy the missiles and have a higher health. Their defense also doubles as a low-damage knockback attack.
+- Support is the square and spawns minions. They have the lowest health but are also the most important.
+	- Minions heal your team and attack the other team's base. They are destroyed on contact with enemy players.
+
+for now everyone is a square and the colors are different
