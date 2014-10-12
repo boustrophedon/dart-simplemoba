@@ -11,6 +11,8 @@ part 'src/components.dart';
 
 part 'src/systems/TestSystem.dart';
 
+part 'src/systems/NetworkSystem.dart';
+part 'src/systems/InputSystem.dart';
 
 part 'src/systems/RenderSystem.dart';
 
@@ -24,6 +26,8 @@ ClientWorld create_client_world() {
 
   world.register_system(new TestSystem(world));
   world.register_system(new RenderSystem(world));
+  world.register_system(new NetworkSystem(world));
+  world.register_system(new InputSystem(world));
 
 
   return world;

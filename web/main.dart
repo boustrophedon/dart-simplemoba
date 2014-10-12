@@ -1,4 +1,4 @@
-import 'package:simplemoba/simplemoba_client.dart';
+import 'package:simplemoba/client/simplemoba_client.dart';
 
 import 'package:entity_component/entity_component_client.dart';
 

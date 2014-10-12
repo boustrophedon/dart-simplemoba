@@ -10,7 +10,5 @@ class AttackRenderer extends Renderer {
     context.fillStyle = '#FF0000';
     // draw square
     context.fillRect(pos.x, pos.y, 20,20); 
-
-    print("Rendering ${rend.type}");
   }
 }
